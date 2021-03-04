@@ -87,7 +87,7 @@ function menu() {
           createIntern();
         } else {
             createTeam()
-          console.log("generating your readme");
+          console.log("generating your HTML");
         }
       });
   }
@@ -167,7 +167,7 @@ function menu() {
           createIntern();
         } else {
             createTeam()
-          console.log("generating your readme");
+          console.log("generating your HTML");
         }
       });
   }
@@ -248,7 +248,7 @@ function menu() {
           createIntern();
         } else {
           createTeam()
-          console.log("generating your readme");
+          console.log("generating your HTML");
         }
       });
   }
