@@ -72,8 +72,8 @@ function menu() {
       .then((inquirerResponses) => {
         members.push(
           new Manager(
-            inquirerResponses.managerId,
             inquirerResponses.managerName,
+            inquirerResponses.managerId,
             inquirerResponses.managerEmail,
             inquirerResponses.officeNumber
           )
@@ -152,8 +152,8 @@ function menu() {
       .then((inquirerResponses) => {
         members.push(
           new Engineer(
-            inquirerResponses.engineerId,
             inquirerResponses.engineerName,
+            inquirerResponses.engineerId,
             inquirerResponses.engineerEmail,
             inquirerResponses.engineerGithub
           )
@@ -233,8 +233,8 @@ function menu() {
       .then((inquirerResponses) => {
         members.push(
           new Intern(
-            inquirerResponses.internId,
             inquirerResponses.internName,
+            inquirerResponses.internId,            
             inquirerResponses.internEmail,
             inquirerResponses.internSchool
           )
